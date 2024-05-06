@@ -1,0 +1,55 @@
+/* styles.css */
+
+.instructor-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Adjust the minmax values as needed */
+    gap: 20px; /* Adjust the gap between cards as needed */
+    padding: 20px; /* Add some padding around the grid */
+}
+
+.instructor-card {
+    background-color: #f9f9f9; /* Light background color for the cards */
+    border-radius: 10px; /* Rounded corners for the cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for the cards */
+    padding: 15px; /* Padding inside the cards */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instructor-image {
+    width: 150px; /* Adjust the width of the image as needed */
+    height: 150px; /* Adjust the height of the image as needed */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 10px; /* Add some margin below the image */
+}
+
+
+.instructor-info {
+    margin-bottom: 5px;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: Center-align text */
+    border: 2px solid #000000; /* Add border */
+    padding: 20px; /* Optional: Add padding */
+  }
+  .input-container {
+    position: relative;
+  }
+  
+  .input-container input[type="text"] {
+    border: none; /* Remove default border */
+    border-bottom: 1px solid #ccc; /* Add underline */
+    padding: 8px 0; /* Add padding to adjust vertical spacing */
+    width: 100%; /* Ensure input takes full width */
+    outline: none; /* Remove outline when focused */
+  }
+  
+  .input-container input[type="text"]:focus {
+    border-bottom-color: blue; /* Change underline color when focused */
+  }

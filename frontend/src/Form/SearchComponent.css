@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Optional: Vertically center the content */
+ 
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Optional: Center-align text */
+  border: 2px solid #000000; /* Add border */
+  padding: 20px; /* Optional: Add padding */
+}
+
+textarea {
+  width: 80%;
+  background-color: #ffffff;
+  height: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #651c1c;
+  border-radius: 5px;
+  resize: none;
+  outline: none; /* Remove default outline */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+  
+  /* Style for the placeholder text */
+  textarea::placeholder {
+    color: #c5bbbbb5; /* Placeholder text color */
+  }
+  
+  /* Hover effect */
+  textarea:hover {
+    border-color: #666; /* Border color on hover */
+  }
+  
+  /* Focus effect */
+  textarea:focus {
+    border-color: #555; /* Border color on focus */
+  }
+  .searchButton {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #474f57cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  /* Centering */
+  position: relative;
+  left: 0%;
+  
+}
+  
+  .searchButton:hover {
+    background-color: #0056b3;
+  }

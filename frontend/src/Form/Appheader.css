@@ -1,0 +1,29 @@
+.App-header {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start of the header */
+  align-items: center;
+  background-color: #282c34;
+  padding: 10px 20px;
+}
+.App-headerright{
+  display: flex;
+  justify-content: flex-start; /* Align items with space between them */
+  align-items: right;
+  background-color: #282c34;
+  padding: 10px 20px;
+}
+.App-header-logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.app-header-item {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px; /* Add margin to create space between links */
+}
+
+.app-header-item-active {
+  background-color: pink;
+
+}
